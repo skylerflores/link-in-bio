@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html>
     <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            html{
+                min-height: 100%;
+            }
+            * {
+                border: 1px #03f0fc solid;
+            }
+            body {
+                color: rgba(255, 255, 255, 1.0);
+                padding-top: 40px;
+                padding-bottom: 40px;
+                background: linear-gradient(#5203fc, #2003fc, #0339fc, #03a5fc, #03f0fc)
+            }
+            a {
+                color: white;
+            }
+            .avatar-image{
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 200px;
+            }
+            .main-container {
+                max-width: 640px;
+                margin: auto;
+            }
+            .image-row {
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .name-row {
+                margin-bottom: 30px;
+                text-align: center;
+                font-size: 30px;
+            }
+            .social-icon-column {
+                margin-bottom: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                font-size: 22px;
+            }
+        </style>
+
         <meta charset="UTF-8">
         <title>This is my homepage</title>
-        <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
         <div class="main-container">
             <div class="image-row">
-                <img src="Me.jpeg" alt="SKyler's headshot">
+                <img class="avatar-image" src="Me.jpeg" alt="SKyler's headshot">
             </div>
             <div class="name-row">
                 Skyler Flores
