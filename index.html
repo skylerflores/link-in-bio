@@ -1,3 +1,141 @@
-<h1>My homepage</h1>
-<h2>My link in bio</h2>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Skyler Flores' Links</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coral+Pixels&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
+    <style>
+      html {
+        min-height: 100%;
+      }
+      /*
+      * {
+        border: 1px red dashed;
+      }
+      */
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(150deg, #f9f9f9, #ebf1ed, #92a3a0, #bee1e9, #6ea1c1, #4575be);
+        color: black;
+        font-family: "Coral Pixels";
+        font-size: 30px;
+        font-weight: 900px;
+      }
+      a {
+        color: #4575be;
+        text-decoration: none;
+      }
+      .avatar-image {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 40px;
+        border: thick double grey;
+      }
+      .thumbnail {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        object-fit: cover;
+      }
+      .main-container {
+        max-width: 640px;
+        margin: auto;
+      }
+      .image-row {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .name-row {
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      .social-icons-row {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .item {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        border-radius: 1000px;
+        padding: 5px;
+        padding-right: 53px;
+        box-shadow: 4px 4px 10px 0px rgba(22, 6, 22, 0.5);
+      }
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
+      }
+      .icon {
+        font-size: 40px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="image-row">
+        <img class="avatar-image" src="headshot.jpeg" alt="Skyler Flores headshot">
+      </div>
+
+
+      <div class="name-row">
+        Skyler Flores
+      </div>
+
+      <div class="social-icons-row">
+        <a  class="icon" href="https://github.com/skylerflores" target="_blank">
+          <i class="fa-brands fa-github-alt"></i>
+        </a>
+
+        <a class="icon" href="https://www.linkedin.com/in/skyler-flores-377aa0230/" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+
+        <a class="icon" href="https://x.com/thatboiiskyler" target="_blank">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+
+        <a class="icon" href="https://www.instagram.com/thatboiiskyler/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+
+      <div class="links-row">
+        <div class="item">
+          <img class="thumbnail" src="TedTalkLogo.png">
+          <a class="link-text" href="https://www.ted.com/talks/sarah_crawford_bohl_how_to_speak_up_even_when_you_don_t_want_to">
+           How to speak up - even when you don't want to
+          </a>
+        </div>
+
+        <div class="item">
+          <img class="thumbnail" src="Youtube.png">
+          <a class="link-text" href="https://www.youtube.com/watch?v=3D8O3bfOEZs&ab_channel=NoiseComplaints">
+            8 HOUR R&B MIX
+          </a>
+        </div>
+
+         <div class="item">
+          <img class="thumbnail" src="download.jpeg">
+          <a class="link-text" href="https://bloody-disgusting.com/editorials/3823644/for-wes-remembering-wes-craven-and-the-movies-that-changed-horror-forever/">
+            For Wes
+          </a>
+         </div>
+       </div>
+    </div>
+
+
+  </body>
+</html>
