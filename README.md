@@ -1,4 +1,4 @@
-#This is first state website in codespace: link-in-bio
+# This is first state website in codespace: link-in-bio
 
 My link-in-bio gives you access to check out my GitHub, LinkedIn, X, and my Instagram profiles.
 Also you'll find links to a very helpful TedTalk, one of my favorite study music playlist,
